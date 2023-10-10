@@ -1,4 +1,4 @@
 package coding_test_lecture.chap02;
 
-public class test_02_01 {
+public class Test_02_01 {
 }
