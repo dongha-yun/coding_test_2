@@ -2,11 +2,11 @@ package coding_test_lecture.chap01;
 
 import java.util.Scanner;
 
-public class Test_01_01 {
-}
-
 //////// 1. 문자 찾기
-class Main {
+//////// 백준 스타일 : 클래스명을 Main 으로 변경 필요
+////////             -> 최종 제출시 Test... 로 설정한 부분 다 Main 으로 변경해서 입력 필요함
+//////// 프로그래머스 스타일 : solution 메소드 설정해서 수행
+public class Test_01_01 {
   public int solution(String str, char t) {
     int answer = 0;
 
@@ -27,7 +27,7 @@ class Main {
   }
 
   public static void main(String[] args) {
-    Main T = new Main();
+    Test_01_01 T = new Test_01_01();
 
     //////// Scanner 로 받아오기
     Scanner kb = new Scanner(System.in);
