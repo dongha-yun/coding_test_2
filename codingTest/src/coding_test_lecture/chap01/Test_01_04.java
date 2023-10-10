@@ -1,4 +1,7 @@
 package coding_test_lecture.chap01;
 
 public class Test_01_04 {
+  public static void main(String[] args) {
+
+  }
 }
