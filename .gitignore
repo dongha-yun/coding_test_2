@@ -1,33 +1,4 @@
-# Default ignored files
-/shelf/
-/workspace.xml
-# Editor-based HTTP Client requests
-/httpRequests/
-# Datasource local storage ignored files
-/dataSources/
-/dataSources.local.xml
-
-# IntelliJ project files
-.gradle
-build/
-out/
-
-#IntelliJ
-.idea
-out
-
-#logback
-**/tmp/log
-logs/
-
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/### Example user template template
+### Example user template template
 ### Example user template
 
 # IntelliJ project files
