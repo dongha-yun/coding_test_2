@@ -8,5 +8,23 @@
 /dataSources.local.xml
 
 # IntelliJ project files
-.idea/
+.gradle
+build/
 out/
+
+#IntelliJ
+.idea
+out
+
+#logback
+**/tmp/log
+logs/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
