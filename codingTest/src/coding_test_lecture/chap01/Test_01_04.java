@@ -3,6 +3,8 @@ package coding_test_lecture.chap01;
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//////// 섹션 1. String (문자열)
+//////// 4. 단어 뒤집기 (StringBuilder 이용법 또는 직접 뒤집기)
 public class Test_01_04 {
   //////// StringBuilder 활용
   public ArrayList<String> solution(int n, String[] str) {
@@ -24,6 +26,7 @@ public class Test_01_04 {
 
     return answer;
   }
+
 
   //////// 앞뒤 짝지어 뒤집기
   public ArrayList<String> solution2(int n, String[] str) {
@@ -50,6 +53,7 @@ public class Test_01_04 {
 
     return answer;
   }
+
 
   public static void main(String[] args) {
     Test_01_04 T = new Test_01_04();

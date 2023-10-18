@@ -2,6 +2,8 @@ package coding_test_lecture.chap01;
 
 import java.util.Scanner;
 
+//////// 섹션 1. String (문자열)
+//////// 3. 문장 속 단어 (IndexOf(), substring())
 public class Test_01_03 {
   //////// split 활용
   public String solution(String str) {
@@ -24,6 +26,7 @@ public class Test_01_03 {
 
     return answer;
   }
+
 
   //////// indexOf, substring 활용
   public String solution2(String str) {
@@ -49,6 +52,7 @@ public class Test_01_03 {
 
     return answer;
   }
+
 
   public static void main(String[] args) {
     Test_01_03 T = new Test_01_03();
